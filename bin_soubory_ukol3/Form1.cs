@@ -74,7 +74,7 @@ namespace bin_soubory_ukol3
             br.BaseStream.Position = 0;
             while (br.BaseStream.Position < br.BaseStream.Length)
             {
-                textBox2.AppendText(br.ReadString()); //tady mi funguje, nchápu proč
+                textBox2.AppendText(br.ReadString()); //tady mi funguje, nechápu proč
             }
 
             br.Close();
